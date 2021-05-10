@@ -1,28 +1,34 @@
 {
   "name": "confusion",
   "version": "1.0.0",
-  "description": "This is a website for Ristorante Con Fusion",
+  "description": "This is a website for Restaurant Tasty Fusion",
   "main": "index.html",
   "scripts": {
-    "start": "npm run watch:all",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "scss": "node-sass -o css/ css/",
-    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    "scss": "node-sass -o css/ css"
   },
-  "author": "",
+  "author": "Varun Antwal",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1",
-    "node-sass": "^4.5.3",
-    "onchange": "^7.1.0",
-    "parallelshell": "^3.0.2"
+    "lite-server": "^2.3.0",
+    "node-sass": "^5.0.0"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "boostrap": "^2.0.0",
+    "bootstrap": "^4.6.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.1.1"
-  }
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VARUN4111/confusion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VARUN4111/confusion/issues"
+  },
+  "homepage": "https://github.com/VARUN4111/confusion#readme"
 }
